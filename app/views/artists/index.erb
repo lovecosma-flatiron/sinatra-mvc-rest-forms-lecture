@@ -3,7 +3,8 @@
 
 <% @artists.each do |artist| %>
 
-    <h3><%= artist.name %></h3>
+    <a href="/artists/<%=artist.id%>"><h3><%= artist.name %></h3></a>
+    
     <p><%= artist.hometown %></p><br>
 
 <% end %>

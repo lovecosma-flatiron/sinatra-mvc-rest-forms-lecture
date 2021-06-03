@@ -7,6 +7,7 @@ require 'pry'
 
 require_all 'app'
 
+
 configure :development do
     set :database, 'sqlite3:db/playlister.db'
   end
